@@ -18,7 +18,7 @@ html {
 .wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .icons {
@@ -42,8 +42,7 @@ html {
 #about {
   display: flex;
   flex-direction: column;
-  min-height: 70vh;
-  margin-top: 10vh;
+  padding-top: 20vh;
   width: 60%;
   margin-left: 20%;
   margin-bottom: 10vh;
@@ -70,8 +69,11 @@ html {
 }
 
 nav {
+  display: flex;
   height: 10vh;
   background: #fffff0;
+  position: fixed;
+  width: 100%;
 }
 
 #projects {
@@ -80,6 +82,8 @@ nav {
   height: 90vh;
   width: 100%;
   flex-direction: column;
+  background: black;
+  color: white;
 }
 
 .projects__layout {

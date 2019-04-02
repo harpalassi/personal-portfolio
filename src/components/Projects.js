@@ -6,7 +6,7 @@ const Projects = () => {
     <section id="projects">
       <div className="projects__layout">
         <h1>PROJECTS</h1>
-        <img src={image} width="400px" />
+        {/* <img src={image} width="325px" /> */}
       </div>
     </section>
   );

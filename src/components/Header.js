@@ -38,7 +38,7 @@ const Header = () => {
             <i className="fab fa-github-square" />
           </a>
           <a href="mailto:harpalassi@gmail.com">
-            <i class="far fa-envelope" />
+            <i className="far fa-envelope" />
           </a>
         </div>
       </div>

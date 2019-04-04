@@ -95,6 +95,10 @@ nav {
   font-size: 6rem;
 }
 
+.subtext {
+  margin-top: 2vh;
+}
+
 .projects__layout {
   display: flex;
   flex-direction: row;
@@ -112,6 +116,14 @@ nav {
   font-size: 1.25rem;
 }
 
+.project__buttons {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 150px;
+}
+
 .project__description h3 {
   text-decoration: underline;
   text-transform: uppercase;
@@ -121,6 +133,10 @@ nav {
 .project__description h4 {
   font-family: Karla;
   font-size: 1.25rem;
+}
+
+button {
+  padding: 5px;
 }
 
 #projects h2 {
@@ -157,7 +173,7 @@ nav {
 }
 
 /* media query */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   #projects h2 {
     align-self: center;
     margin-top: 10vh;
@@ -209,7 +225,7 @@ nav {
   .hamburger {
     position: fixed;
     cursor: pointer;
-    right: 5%;
+    right: 4%;
     top: 5%;
     transform: translate(-5%, -50%);
     z-index: 99;

@@ -9,9 +9,9 @@ class Projects extends Component {
         id: 1,
         title: 'All My Books',
         image:
-          'https://raw.githubusercontent.com/harpalassi/portfolio-2019/master/src/images/all-my-books.png',
+          'https://raw.githubusercontent.com/harpalassi/portfolio-2019/master/src/images/all-my-books.gif',
         description:
-          'All My Books is a full-stack application that searches, saves, and deletes books of interest using the Google Books API. The app is built with React, MongoDB, Express and Node.js.'
+          'All My Books is a full-stack application that searches, saves, and deletes books of interest using the Google Books API. I built it using React, MongoDB, Express and Node.js.'
       }
     ];
     return (
@@ -31,6 +31,8 @@ class Projects extends Component {
             <div className="project__description">
               <h3>{project.title}</h3>
               <h4>{project.description}</h4>
+              <button>Github</button>
+              <button>Deployed</button>
             </div>
           </div>
         ))}

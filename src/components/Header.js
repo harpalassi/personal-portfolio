@@ -31,14 +31,14 @@ const Header = () => {
             rel="noopener noreferrer">
             <i className="fab fa-linkedin" />
           </a>
+          <a href="mailto:harpalassi@gmail.com">
+            <i className="far fa-envelope" />
+          </a>
           <a
             href="https://www.github.com/harpalassi"
             target="_blank"
             rel="noopener noreferrer">
             <i className="fab fa-github-square" />
-          </a>
-          <a href="mailto:harpalassi@gmail.com">
-            <i className="far fa-envelope" />
           </a>
         </div>
       </div>

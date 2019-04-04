@@ -10,8 +10,7 @@ class Projects extends Component {
         title: 'All My Books',
         image:
           'https://raw.githubusercontent.com/harpalassi/portfolio-2019/master/src/images/all-my-books.gif',
-        description:
-          'All My Books is a full-stack application that searches, saves, and deletes books of interest using the Google Books API. I built it using React, MongoDB, Express and Node.js.'
+        description: `All My Books is a full-stack application that allows users to quickly search for, save, and discard books of interest. I built it using React, MongoDB, Express and Node.js.`
       }
     ];
     return (

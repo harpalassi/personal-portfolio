@@ -21,22 +21,27 @@ const Header = () => {
         <br />
         <p>
           {' '}
-          Feel free to check out my <a href="#projects">projects</a> and reach
-          out to me if you'd like to chat.
+          Feel free to check out my{' '}
+          <a href="#projects" aria-label="projects">
+            projects
+          </a>{' '}
+          and reach out to me if you'd like to chat.
         </p>
         <div className="icons">
           <a
             href="https://www.linkedin.com/in/harpal-assi/"
+            aria-label="linked-in"
             target="_blank"
             rel="noopener noreferrer">
             <i className="fab fa-linkedin" />
           </a>
-          <a href="mailto:harpalassi@gmail.com">
+          <a href="mailto:harpalassi@gmail.com" aria-label="email">
             <i className="far fa-envelope" />
           </a>
           <a
             href="https://www.github.com/harpalassi"
             target="_blank"
+            aria-label="github"
             rel="noopener noreferrer">
             <i className="fab fa-github-square" />
           </a>

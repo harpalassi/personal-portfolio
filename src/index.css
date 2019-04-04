@@ -30,7 +30,7 @@ html {
 
 .fab,
 .far {
-  color: black;
+  color: #0c0c0c;
 }
 
 .fab:hover,
@@ -50,7 +50,6 @@ html {
 }
 
 .title {
-  /* background-color: white; */
   display: flex;
   flex-direction: column;
 }
@@ -83,21 +82,39 @@ nav {
   height: 90vh;
   width: 100%;
   flex-direction: column;
-  background: black;
+  background: #0c0c0c;
   color: #fffff0;
 }
 
 .projects__layout {
+  margin-top: 5vh;
   display: flex;
+  flex-direction: row;
   width: 65%;
   margin-left: 15%;
-  flex-direction: column;
+  /* background-color: dodgerblue; */
 }
 
-.projects__layout h2 {
+.project__img {
+  width: 400px;
+  /* margin-right: 5vw; */
+}
+
+.project__description {
+  margin-left: 2rem;
+  font-size: 1.25rem;
+}
+
+.project__description h3 {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+#projects h2 {
   margin-top: 10vh;
   font-size: 4.5rem;
   margin-bottom: 0.5rem;
+  margin-left: 15%;
 }
 
 .nav-links {
@@ -111,19 +128,48 @@ nav {
 }
 
 .nav-links li a {
-  color: black;
+  color: #0c0c0c;
   text-decoration: none;
   font-size: 1.2rem;
 }
 
 .nav-links li a:hover {
-  border-bottom: 2px black solid;
+  border-bottom: 2px #0c0c0c solid;
+}
+
+.img__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* media query */
 @media screen and (max-width: 768px) {
+  #projects h2 {
+    align-self: center;
+    margin-top: 10vh;
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0;
+  }
   .projects__layout h1 {
     font-size: 4rem;
+  }
+
+  .project__description {
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+
+  .projects__layout {
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    margin-left: 5%;
+  }
+
+  .project__img {
+    width: 100%;
   }
   #about {
     margin-bottom: 10vh;
@@ -133,7 +179,7 @@ nav {
   .line {
     width: 30px;
     height: 3px;
-    background: black;
+    background: #0c0c0c;
     margin: 5px;
     transition: all 0.5s ease-out;
   }
@@ -158,7 +204,7 @@ nav {
 
   .nav-links {
     position: fixed;
-    background: black;
+    background: #0c0c0c;
     height: 100vh;
     width: 100%;
     flex-direction: column;

@@ -12,7 +12,19 @@ class Projects extends Component {
           'https://raw.githubusercontent.com/harpalassi/portfolio-2019/master/src/images/all-my-books.gif',
         description: `All My Books is a full-stack application that allows users to quickly search for, save, and discard books of interest. Books are clearly displayed with their respective titles, authors, description, and thumbnail via the Google Books API.`,
         subtext: `Building this app solidified my knowledge regarding passing state and props within React, and using conditional rendering to achieve the results I wanted. `,
-        environment: `Environment: React, MongoDB, Express, Node.js, Flexbox, Mongoose.`
+        environment: `Environment: React, MongoDB, Express, Node.js, Flexbox, Mongoose`,
+        codelink: `https://www.github.com/harpalassi/all-my-books`,
+        demolink: `https://all-my-books.herokuapp.com`
+      },
+      {
+        id: 2,
+        title: 'Game It Up',
+        image:
+          'https://raw.githubusercontent.com/harpalassi/portfolio-2019/master/src/images/all-my-books.gif',
+        description: `Game It Up is a full-stack application for creating and finding pick-up sports games in your area. Users can log in and either search for a game using Google Maps or create one so others may join.
+        `,
+        subtext: `Building this app solidified my knowledge regarding passing state and props within React, and using conditional rendering to achieve the results I wanted. `,
+        environment: `Environment: Handlebars, MySQL, Express, Node.js, Sequelize.`
       }
     ];
     return (
@@ -29,8 +41,22 @@ class Projects extends Component {
                 alt={project.title}
               />
               <div className="project__buttons">
-                <button>View Code</button>
-                <button>View Demo</button>
+                <button>
+                  <a
+                    href={project.codelink}
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    View Code
+                  </a>
+                </button>
+                <button>
+                  <a
+                    href={project.demolink}
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    View Demo
+                  </a>
+                </button>
               </div>
             </div>
             <div className="project__description">

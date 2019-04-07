@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Game from '../images/game-it-up.gif';
 class Projects extends Component {
   state = {};
 
@@ -19,12 +19,13 @@ class Projects extends Component {
       {
         id: 2,
         title: 'Game It Up',
-        image:
-          'https://raw.githubusercontent.com/harpalassi/portfolio-2019/master/src/images/all-my-books.gif',
+        image: `https://raw.githubusercontent.com/harpalassi/portfolio-2019/master/src/images/game-it-up.gif`,
         description: `Game It Up is a full-stack application for creating and finding pick-up sports games in your area. Users can log in and either search for a game using Google Maps or create one so others may join.
         `,
         subtext: `Building this app solidified my knowledge regarding passing state and props within React, and using conditional rendering to achieve the results I wanted. `,
-        environment: `Environment: Handlebars, MySQL, Express, Node.js, Sequelize.`
+        environment: `Environment: Handlebars, MySQL, Express, Node.js, Sequelize.`,
+        codelink: ``,
+        demolink: ``
       }
     ];
     return (

@@ -10,7 +10,7 @@ class Projects extends Component {
         image:
           'https://raw.githubusercontent.com/harpalassi/portfolio-2019/master/src/images/all-my-books.gif',
         description: ` All My Books is a full MERN stack application that allows users to quickly search for, save, and discard books of interest. Books are clearly displayed with their respective titles, authors, description, and thumbnail via the Google Books API.`,
-        challenges: ` I wanted to make my components reusable as possible and solved issues injecting different functions into the same component onClick call that rendered on separate routes. Building this app helped solidify my knowledge regarding passing state and props within React and using conditional rendering to achieve the results I wanted. I was also able to create this as a single-page application via React Router.`,
+        challenges: ` I wanted to make my components reusable as possible which involved solving issues injecting different functions into the same component onClick call which rendered on separate routes. Building this app helped solidify my knowledge regarding passing state and props within React and using conditional rendering to achieve the results I wanted. I was also able to create this as a single-page application via React Router.`,
         environment: ` React, React Router, MongoDB, Express, Node.js, Flexbox, Mongoose`,
         codelink: `https://www.github.com/harpalassi/all-my-books`,
         demolink: `https://all-my-books.herokuapp.com`

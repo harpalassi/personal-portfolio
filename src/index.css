@@ -128,7 +128,7 @@ nav {
 
 .project__description {
   margin-left: 2rem;
-  font-size: 1.25rem;
+  /* font-size: 1.25rem; */
 }
 
 .project__buttons {
@@ -140,6 +140,7 @@ nav {
 }
 
 .project__description h3 {
+  font-size: 2rem;
   text-decoration: underline;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
@@ -147,7 +148,7 @@ nav {
 
 .project__description h4 {
   font-family: Karla;
-  font-size: 1.01 rem;
+  font-size: 1rem;
 }
 
 .sections {
@@ -230,6 +231,10 @@ button:hover {
     font-size: 4rem;
   }
 
+  .project__description h3 {
+    text-align: center;
+  }
+
   .project__description {
     margin-left: 0;
     margin-top: 2rem;
@@ -269,7 +274,7 @@ button:hover {
   .hamburger {
     position: fixed;
     cursor: pointer;
-    right: 4%;
+    right: 3%;
     top: 5%;
     background: #fffff0;
     padding: 1px;

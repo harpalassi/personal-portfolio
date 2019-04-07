@@ -10,7 +10,7 @@ class Projects extends Component {
         image:
           'https://raw.githubusercontent.com/harpalassi/portfolio-2019/master/src/images/all-my-books.gif',
         description: ` All My Books is a full MERN stack application that allows users to quickly search for, save, and discard books of interest. Books are clearly displayed with their respective titles, authors, description, and thumbnail via the Google Books API.`,
-        challenges: ` I wanted to make my components reusable as possible which involved solving issues injecting different functions into the same component onClick call which rendered on separate routes. Building this app helped solidify my knowledge regarding passing state and props within React and using conditional rendering to achieve the results I wanted. I was also able to create this as a single-page application via React Router.`,
+        challenges: ` I wanted to make my components reusable as possible which involved solving issues injecting different functions into the same components' onClick call. Building this app helped solidify my knowledge regarding passing state and props within React and using conditional rendering to achieve the results I wanted. I was also able to create this as a single-page application via React Router.`,
         environment: ` React, React Router, MongoDB, Express, Node.js, Flexbox, Mongoose`,
         codelink: `https://www.github.com/harpalassi/all-my-books`,
         demolink: `https://all-my-books.herokuapp.com`
@@ -30,7 +30,7 @@ class Projects extends Component {
         id: 3,
         title: 'Mixmag News Scraper',
         image: ``,
-        description: ` MIXMAG News Scraper is a full-stack app which scrapes the latest news from mixmag.net. It utilizes Node.js, Cheerio, and Axios for data scraping then displays the front-end using the MVC pattern with Mongoose, Handlebars, and Express. Users may also add and delete comments on each article via a modal pop-up. The number of comments is shown on each article.`,
+        description: ` Mixmag News Scraper is a full-stack application which scrapes the latest news from mixmag.net. It utilizes Node.js, Cheerio, and Axios for data scraping then displays the front-end using the MVC pattern with Mongoose, Handlebars, and Express. Users may also add and delete comments on each article via a modal pop-up. The total number of comments are shown on each article.`,
         challenges: ` `,
         environment: ` JavaScript, Node.js, jQuery, MongoDB, Mongoose, Express, Axios, Cheerio, Materialize, Handlebars`,
         codelink: `https://github.com/harpalassi/mixmag-news-scraper`,

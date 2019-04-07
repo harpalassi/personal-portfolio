@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Navbar extends Component {
   state = {
-    active: false
+    active: true
   };
 
   toggleClass = () => {
@@ -18,7 +18,7 @@ class Navbar extends Component {
           <div className={this.state.active ? 'line open' : 'line'} />
         </div>
 
-        <ul className={this.state.active ? 'nav-links open' : 'nav-links'}>
+        <ul className={this.state.active ? 'nav-links closed' : 'nav-links'}>
           <li>
             <a
               href="#about"

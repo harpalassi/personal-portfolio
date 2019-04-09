@@ -42,13 +42,17 @@ html {
 .fab,
 .far {
   color: #0c0c0c;
-  transition: all 0.5s ease-out 1s;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 
 .fab:hover,
 .far:hover {
-  position: relative;
-  bottom: 5px;
+  /* position: relative;
+  bottom: 5px; */
+  /* transition: all 0.5s ease-out 1s; */
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 /* about me */

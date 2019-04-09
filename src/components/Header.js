@@ -35,7 +35,7 @@ const Header = () => {
             rel="noopener noreferrer">
             <i className="fab fa-linkedin" />
           </a>
-          <a href="mailto:harpalassi@gmail.com" aria-label="email">
+          <a href="mailto:harpalassi@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="email">
             <i className="far fa-envelope" />
           </a>
           <a

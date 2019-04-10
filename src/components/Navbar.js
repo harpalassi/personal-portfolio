@@ -48,7 +48,7 @@ class Navbar extends Component {
           </li>
           <li>
             <a
-              href="https://1n.pm/harpal-resume"
+              href="https://1n.pm/harpal-web-resume"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="resume"

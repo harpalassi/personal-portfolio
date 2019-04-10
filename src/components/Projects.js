@@ -31,7 +31,7 @@ class Projects extends Component {
       {
         id: 3,
         title: 'Mixmag News Scraper',
-        image: `https://raw.githubusercontent.com/harpalassi/portfolio-2019/master/src/images/mixmag-scraper.gif`,
+        image: `https://raw.githubusercontent.com/harpalassi/portfolio-2019/master/src/images/mixmag-scraper.png`,
         description: ` A full-stack app which scrapes the latest news from mixmag.net. Users may also add and delete comments on each article via a modal pop-up. The total number of comments are shown on each article. It utilizes Node.js, Cheerio, and Axios for data scraping then displays the front-end using the MVC pattern with Mongoose, Handlebars, and Express. `,
         challenges: ` This app presented several challenges ranging from how to use templating with server side rendering, traversing the DOM to scrape data, and utilizing CRUD within MongoDB. I ran into a few issues that had me debugging for several hours, but I was able to find solutions after breaking the code down into smaller chunks.`,
         environment: ` JavaScript, Node.js, jQuery, MongoDB, Mongoose, Express, Axios, Cheerio, Materialize, Handlebars`,

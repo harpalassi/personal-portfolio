@@ -41,7 +41,7 @@ class Projects extends Component {
       {
         id: 4,
         title: 'Twitter Data Analyser',
-        image: `https://raw.githubusercontent.com/harpalassi/portfolio-2019/master/src/images/twitter-data-analyser.png`,
+        image: `https://raw.githubusercontent.com/harpalassi/portfolio-2019/master/src/images/twitter-analyser.png`,
         description: ` A web app which analyses and displays Donald Trump's tweets into a word bubble and a bar graph. These show his most used words and the time of day they were posted.`,
         challenges: ` This app was a group effort in which my main tasks were to get data from a news API, display the feed on the front-end, and help customize the layout as whole. My biggest challenge was getting comfortable using Git with a team of developers. Working with others helped strengthen my foundation for creating branches, pull requests, resolving conflicts, and merging files.`,
         environment: ` JavaScript, jQuery, Materialize, Firebase, jQCloud, Chart.js`,

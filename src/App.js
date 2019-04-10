@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component, lazy, Suspense } from 'react';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
-import Projects from './components/Projects.js';
+// import Projects from './components/Projects.js';
+const Projects = lazy(() => import('./components/Projects'));
 
 class App extends Component {
   render() {
@@ -9,7 +10,9 @@ class App extends Component {
       <div className="wrapper">
         <Navbar />
         <Header />
-        <Projects />
+        <Suspense fallback={<div>Loading..</div>}>
+          <Projects />
+        </Suspense>
       </div>
     );
   }

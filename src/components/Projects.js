@@ -37,6 +37,16 @@ class Projects extends Component {
         environment: ` JavaScript, Node.js, jQuery, MongoDB, Mongoose, Express, Axios, Cheerio, Materialize, Handlebars`,
         codelink: `https://github.com/harpalassi/mixmag-news-scraper`,
         demolink: `https://mixmag-news-scraper.herokuapp.com`
+      },
+      {
+        id: 4,
+        title: 'Twitter Data Analyser',
+        image: ``,
+        description: ` `,
+        challenges: ` This app was a group effort with a team of developers. `,
+        environment: ` JavaScript, jQuery, Materialize, Firebase, jQCloud, Chart.js`,
+        codelink: `https://github.com/harpalassi/twitter-data-analyser`,
+        demolink: `https://harpalassi.github.io/twitter-data-analyser`
       }
     ];
     return (

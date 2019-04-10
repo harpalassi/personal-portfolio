@@ -59,12 +59,31 @@ html {
   display: flex;
   flex-direction: column;
   padding-top: 20vh;
-  width: 65%;
+  width: 80%;
   align-self: center;
   justify-self: center;
   margin-bottom: 10vh;
   min-height: 80vh;
   background-color: var(--primary-color);
+}
+
+.about__picture {
+  width: 225px;
+  /* box-shadow: inset 0 0 0 30px black; */
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.8);
+}
+
+.row-wrap {
+  display: flex;
+  width: 100%;
+}
+
+.about__image {
+  margin-right: 3vw;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
 }
 
 .title {
@@ -98,6 +117,7 @@ nav {
   align-items: center;
   background: #4e71f0;
   color: #fffff0;
+  padding-bottom: 15vh;
 }
 
 #projects h2 {
@@ -215,14 +235,34 @@ button:hover {
   align-items: center;
 }
 
+footer {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  flex-direction: column;
+  background-color: var(--primary-color);
+}
+
 /* media query */
 @media screen and (max-width: 900px) {
+  .about__image {
+    margin-right: 0;
+    margin-bottom: 5vh;
+    align-self: center;
+    justify-self: center;
+  }
+  .row-wrap {
+    flex-direction: column;
+  }
   .title {
     display: flex;
   }
   .title h1 {
     font-size: 4rem;
     margin-bottom: 0.5rem;
+    text-align: center;
   }
   #projects h2 {
     align-self: center;
@@ -242,6 +282,10 @@ button:hover {
   .project__description {
     margin-left: 0;
     margin-top: 2rem;
+  }
+
+  .project__description h4 {
+    font-size: 1.25rem;
   }
 
   .projects__layout {

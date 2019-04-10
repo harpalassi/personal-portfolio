@@ -1,4 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component, lazy, Suspense } from 'react';
+const ProjectImage = lazy(() => import('./ProjectImage'));
+
 class Projects extends Component {
   state = {};
 
@@ -44,12 +46,13 @@ class Projects extends Component {
         {project.map(project => (
           <div className="projects__layout">
             <div className="img__container">
-              <img
-                key={project.id}
-                src={project.image}
-                className="project__img"
-                alt={project.title}
-              />
+              <Suspense fallback={<div>Loading..</div>}>
+                <ProjectImage
+                  key={project.id}
+                  image={project.image}
+                  title={project.title}
+                />
+              </Suspense>
               <div className="project__buttons">
                 <button>
                   <a

@@ -48,7 +48,9 @@ class Navbar extends Component {
           </li>
           <li>
             <a
-              href="#"
+              href="https://1n.pm/harpal-resume"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="resume"
               onClick={this.toggleClass}
               className={this.state.active ? 'fade' : ''}>

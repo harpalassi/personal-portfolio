@@ -2,12 +2,12 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <section id="about">
+    <header id="about">
       <div className="row-wrap">
         <div className="about__image">
           <img
             src="https://raw.githubusercontent.com/harpalassi/portfolio-2019/master/src/images/portfolio-profile.png"
-            alt="harpal assi"
+            alt="Portait"
             className="about__picture"
           />
         </div>
@@ -75,7 +75,7 @@ const Header = () => {
           <i className="fab fa-github-square" />
         </a>
       </div>
-    </section>
+    </header>
   );
 };
 

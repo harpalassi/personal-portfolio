@@ -50,58 +50,60 @@ class Projects extends Component {
       }
     ];
     return (
-      <section id="projects">
-        <h2>PROJECTS</h2>
+      <main>
+        <section id="projects">
+          <h2>PROJECTS</h2>
 
-        {project.map(project => (
-          <div className="projects__layout">
-            <div className="img__container">
-              <Suspense fallback={<div>Loading..</div>}>
-                <ProjectImage
-                  key={project.id}
-                  image={project.image}
-                  title={project.title}
-                />
-              </Suspense>
-              <div className="project__buttons">
-                <button>
-                  <a
-                    href={project.codelink}
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    View Code
-                  </a>
-                </button>
-                <button>
-                  <a
-                    href={project.demolink}
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    View Demo
-                  </a>
-                </button>
+          {project.map(project => (
+            <div className="projects__layout">
+              <div className="img__container">
+                <Suspense fallback={<div>Loading..</div>}>
+                  <ProjectImage
+                    key={project.id}
+                    image={project.image}
+                    title={project.title}
+                  />
+                </Suspense>
+                <div className="project__buttons">
+                  <button>
+                    <a
+                      href={project.codelink}
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      View Code
+                    </a>
+                  </button>
+                  <button>
+                    <a
+                      href={project.demolink}
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      View Demo
+                    </a>
+                  </button>
+                </div>
+              </div>
+              <div className="project__description">
+                <div className="project__title">
+                  <h3>{project.title}</h3>
+                </div>
+                <h4>
+                  <span className="sections">Description</span>:
+                  {project.description}
+                </h4>
+                <h4 className="subtext">
+                  <span className="sections">Challenges</span>:
+                  {project.challenges}
+                </h4>
+                <h4 className="subtext">
+                  <span className="sections">Environment</span>:
+                  {project.environment}
+                </h4>
               </div>
             </div>
-            <div className="project__description">
-              <div className="project__title">
-                <h3>{project.title}</h3>
-              </div>
-              <h4>
-                <span className="sections">Description</span>:
-                {project.description}
-              </h4>
-              <h4 className="subtext">
-                <span className="sections">Challenges</span>:
-                {project.challenges}
-              </h4>
-              <h4 className="subtext">
-                <span className="sections">Environment</span>:
-                {project.environment}
-              </h4>
-            </div>
-          </div>
-        ))}
-      </section>
+          ))}
+        </section>
+      </main>
     );
   }
 }

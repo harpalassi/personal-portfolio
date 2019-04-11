@@ -108,16 +108,15 @@ nav {
   width: 100%;
   flex-direction: column;
   align-items: center;
-  /* background: #2f58ed; */
-  background: #1242e3;
+
+  background: #2a49cf;
   color: var(--primary-color);
   padding-bottom: 15vh;
 }
 
 #projects h2 {
   align-self: flex-start;
-  /* color: #edc42f; */
-  color: #e3b312;
+  color: #edc42f;
   font-size: 6rem;
 }
 

@@ -33,7 +33,22 @@ const Header = () => {
             <a href="#projects" aria-label="projects">
               projects
             </a>{' '}
-            and reach out to me below if you'd like to chat.
+            and download my{' '}
+            <a
+              href="https://1n.pm/resume-harpal-web"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="resume">
+              resumé
+            </a>
+            .{' '}
+          </p>{' '}
+          <br />
+          <p>
+            <div id="contact">
+              Contact me below to chat about opportunities, programming,
+              britcoms, horror films, or just to say hello.
+            </div>
           </p>
         </div>
       </div>

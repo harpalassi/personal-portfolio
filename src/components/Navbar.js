@@ -28,15 +28,7 @@ class Navbar extends Component {
               About
             </a>
           </li>
-          <li>
-            <a
-              href="#projects"
-              aria-label="projects"
-              onClick={this.toggleClass}
-              className={this.state.active ? 'fade' : ''}>
-              Projects
-            </a>
-          </li>
+
           <li>
             <a
               href="#contact"
@@ -44,6 +36,15 @@ class Navbar extends Component {
               onClick={this.toggleClass}
               className={this.state.active ? 'fade' : ''}>
               Contact
+            </a>
+          </li>
+          <li>
+            <a
+              href="#projects"
+              aria-label="projects"
+              onClick={this.toggleClass}
+              className={this.state.active ? 'fade' : ''}>
+              Projects
             </a>
           </li>
           <li>

@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <p>Built with React and CSS Flexbox </p>
-      <p>Copyright 2019 © Harpal Assi</p>
+      <p>© 2019 Harpal Assi</p>
       <div className="bottom-icons">
         <a
           href="https://www.linkedin.com/in/harpal-assi/"

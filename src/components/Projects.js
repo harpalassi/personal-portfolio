@@ -65,7 +65,7 @@ class Projects extends Component {
                   />
                 </Suspense>
                 <div className="project__buttons">
-                  <button>
+                  <button className="project__button">
                     <a
                       href={project.codelink}
                       target="_blank"
@@ -73,7 +73,7 @@ class Projects extends Component {
                       View Code
                     </a>
                   </button>
-                  <button>
+                  <button className="project__button">
                     <a
                       href={project.demolink}
                       target="_blank"

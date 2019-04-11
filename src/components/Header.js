@@ -35,7 +35,7 @@ const Header = () => {
             </a>{' '}
             and download my{' '}
             <a
-              href="https://1n.pm/resume-harpal-web"
+              href="https://www.dropbox.com/s/ktfe4j3rpit2lnd/harpal-resume-web.pdf?dl=0"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="resume">

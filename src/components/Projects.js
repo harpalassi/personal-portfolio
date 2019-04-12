@@ -76,9 +76,8 @@ class Projects extends Component {
                   />
                 </Suspense>
                 <div className="project__buttons">
-                  <button className="project__button">
+                  <button className="project__button" tabindex="-1">
                     <a
-                      tabindex="-1"
                       href={project.codelink}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -90,9 +89,8 @@ class Projects extends Component {
                       View Code for '{project.title}'
                     </a>
                   </button>
-                  <button className="project__button">
+                  <button className="project__button" tabindex="-1">
                     <a
-                      tabindex="-1"
                       href={project.demolink}
                       target="_blank"
                       rel="noopener noreferrer"

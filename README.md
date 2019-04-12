@@ -1,4 +1,4 @@
-# Portfolio 2019 🖌
+# Portfolio 2019 🖼
 
 My current portfolio that I built with React and CSS Flexbox showcasing projects I've worked on myself and with groups of developers.
 

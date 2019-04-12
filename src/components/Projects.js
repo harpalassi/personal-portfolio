@@ -78,18 +78,28 @@ class Projects extends Component {
                 <div className="project__buttons">
                   <button className="project__button">
                     <a
+                      tabindex="-1"
                       href={project.codelink}
                       target="_blank"
-                      rel="noopener noreferrer">
-                      View Code
+                      rel="noopener noreferrer"
+                      aria-label={
+                        project.title
+                          ? ' project link for ' + project.title
+                          : ''
+                      }>
+                      View Code for '{project.title}'
                     </a>
                   </button>
                   <button className="project__button">
                     <a
+                      tabindex="-1"
                       href={project.demolink}
                       target="_blank"
-                      rel="noopener noreferrer">
-                      View Demo
+                      rel="noopener noreferrer"
+                      aria-label={
+                        project.title ? 'demo link for ' + project.title : ''
+                      }>
+                      View Demo for '{project.title}'
                     </a>
                   </button>
                 </div>

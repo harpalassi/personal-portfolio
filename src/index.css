@@ -151,9 +151,9 @@ nav {
 .project__buttons {
   margin-top: 2vh;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 250px;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100px;
 }
 
 .project__description h3 {

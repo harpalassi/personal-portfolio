@@ -20,11 +20,11 @@ const Header = () => {
           <br />
           <p>
             After several years of touring, I found myself falling in love with
-            programming and its infinite possibilities. I currently work in
-            full-stack technologies such as React, JavaScript, CSS3, HTML5,
-            MySQL, Node.js, Express, and MongoDB. I'm passionate about building
-            apps that are clean, accessible, and efficient for both users and
-            developers alike.
+            programming and its infinite possibilities to solve real-world
+            problems. I currently work in full-stack technologies such as React,
+            JavaScript, CSS3, HTML5, MySQL, Node.js, Express, and MongoDB. I'm
+            passionate about building apps that are clean, accessible, and
+            efficient for both users and developers alike.
           </p>
           <br />
           <p>

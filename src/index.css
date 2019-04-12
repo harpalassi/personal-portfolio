@@ -62,7 +62,6 @@ html {
 
 .about__picture {
   width: 225px;
-  /* box-shadow: inset 0 0 0 30px black; */
   border-radius: 50%;
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.8);
 }
@@ -145,7 +144,6 @@ nav {
 
 .project__description {
   margin-left: 2rem;
-  /* font-size: 1.25rem; */
 }
 
 .project__buttons {
@@ -158,7 +156,6 @@ nav {
 
 .project__description h3 {
   font-size: 2rem;
-  /* text-decoration: underline; */
   text-transform: uppercase;
   margin-bottom: 0.5rem;
 }
@@ -174,7 +171,7 @@ nav {
 
 .project__button {
   display: inline-block;
-  padding: 0.5rem 1.25rem;
+  padding: 0.75vh 2vw;
   background-color: var(--primary-color);
   text-decoration: none;
   border: none;
@@ -274,6 +271,10 @@ footer {
   }
   .projects__layout h1 {
     font-size: 4rem;
+  }
+
+  .project__buttons {
+    height: 150px;
   }
 
   .project__description h3 {

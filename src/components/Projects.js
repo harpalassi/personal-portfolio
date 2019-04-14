@@ -83,10 +83,10 @@ class Projects extends Component {
                       rel="noopener noreferrer"
                       aria-label={
                         project.title
-                          ? ' project link for ' + project.title
+                          ? ' link to code for ' + project.title
                           : ''
                       }>
-                      View Code for '{project.title}'
+                      View Code
                     </a>
                   </button>
                   <button className="project__button" tabindex="-1">
@@ -95,9 +95,9 @@ class Projects extends Component {
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={
-                        project.title ? 'demo link for ' + project.title : ''
+                        project.title ? 'link to demo for ' + project.title : ''
                       }>
-                      View Demo for '{project.title}'
+                      View Demo
                     </a>
                   </button>
                 </div>

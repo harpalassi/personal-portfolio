@@ -149,9 +149,9 @@ nav {
 .project__buttons {
   margin-top: 2vh;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 100px;
+  flex-direction: row;
+  width: 300px;
+  justify-content: space-between;
 }
 
 .project__description h3 {
@@ -171,7 +171,7 @@ nav {
 
 .project__button {
   display: inline-block;
-  padding: 0.75vh 2vw;
+  padding: 0.5rem 1.5rem;
   background-color: var(--primary-color);
   text-decoration: none;
   border: none;
@@ -245,13 +245,6 @@ footer {
 
 /* media query */
 
-@media screen and (max-width: 350px) {
-  .project__button {
-    padding: 0.75vh 5vw;
-    font-size: 0.85rem;
-  }
-}
-
 @media screen and (max-width: 450px) {
   .project__img {
     width: 100%;
@@ -285,10 +278,6 @@ footer {
   }
   .projects__layout h1 {
     font-size: 4rem;
-  }
-
-  .project__buttons {
-    height: 125px;
   }
 
   .project__description h3 {

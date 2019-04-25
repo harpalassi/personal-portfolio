@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Navbar extends Component {
   state = {
@@ -13,18 +13,19 @@ class Navbar extends Component {
     return (
       <nav>
         <div className="hamburger" onClick={this.toggleClass}>
-          <div className={this.state.active ? 'line open' : 'line'} />
-          <div className={this.state.active ? 'line open' : 'line'} />
-          <div className={this.state.active ? 'line open' : 'line'} />
+          <div className={this.state.active ? "line open" : "line"} />
+          <div className={this.state.active ? "line open" : "line"} />
+          <div className={this.state.active ? "line open" : "line"} />
         </div>
 
-        <ul className={this.state.active ? 'nav-links closed' : 'nav-links'}>
+        <ul className={this.state.active ? "nav-links closed" : "nav-links"}>
           <li>
             <a
               href="#about"
               aria-label="about"
               onClick={this.toggleClass}
-              className="nav-link">
+              className="nav-link"
+            >
               About
             </a>
           </li>
@@ -34,7 +35,8 @@ class Navbar extends Component {
               href="#contact"
               aria-label="contact"
               onClick={this.toggleClass}
-              className="nav-link">
+              className="nav-link"
+            >
               Contact
             </a>
           </li>
@@ -43,18 +45,20 @@ class Navbar extends Component {
               href="#projects"
               aria-label="projects"
               onClick={this.toggleClass}
-              className="nav-link">
+              className="nav-link"
+            >
               Projects
             </a>
           </li>
           <li>
             <a
-              href="https://www.dropbox.com/s/hbda6hzzm91zhc3/Harpal-Resume-Web.pdf?dl=0"
+              href="https://www.dropbox.com/s/1a55zxvet7638qx/Harpal%20Assi%20-%20Web%20Resume.pdf?dl=0"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="resume"
               onClick={this.toggleClass}
-              className="nav-link">
+              className="nav-link"
+            >
               Resumé
             </a>
           </li>

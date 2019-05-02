@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Resume from "../resume.pdf";
 
 class Navbar extends Component {
   state = {
@@ -20,23 +21,13 @@ class Navbar extends Component {
 
         <ul className={this.state.active ? "nav-links closed" : "nav-links"}>
           <li>
-            <a
-              href="#about"
-              aria-label="about"
-              onClick={this.toggleClass}
-              className="nav-link"
-            >
+            <a href="#about" aria-label="about" onClick={this.toggleClass} className="nav-link">
               About
             </a>
           </li>
 
           <li>
-            <a
-              href="#contact"
-              aria-label="contact"
-              onClick={this.toggleClass}
-              className="nav-link"
-            >
+            <a href="#contact" aria-label="contact" onClick={this.toggleClass} className="nav-link">
               Contact
             </a>
           </li>
@@ -52,7 +43,7 @@ class Navbar extends Component {
           </li>
           <li>
             <a
-              href="https://www.dropbox.com/s/1a55zxvet7638qx/Harpal%20Assi%20-%20Web%20Resume.pdf?dl=0"
+              href={Resume}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="resume"

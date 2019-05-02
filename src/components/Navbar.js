@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Resume from "../resume.pdf";
+import Resume from "../resume/resume.pdf";
 
 class Navbar extends Component {
   state = {

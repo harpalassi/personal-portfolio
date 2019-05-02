@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../resume.pdf";
+import Resume from "../resume/resume.pdf";
 
 const Header = () => {
   return (

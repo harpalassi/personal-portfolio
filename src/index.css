@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata|Karla');
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Karla");
 
 :root {
   --primary-color: #fffff0;
@@ -11,13 +11,18 @@
 }
 
 body {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 html {
   scroll-behavior: smooth;
   background-color: var(--primary-color);
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: local("Inter-Regular"), url(./fonts/Inter-Regular.woff) format("woff");
 }
 
 .wrapper {
@@ -136,7 +141,7 @@ nav {
 }
 
 .project__img {
-  width: 475px;
+  width: 450px;
   -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
@@ -161,7 +166,7 @@ nav {
 }
 
 .project__description h4 {
-  font-family: Karla;
+  font-family: Inter-Regular, Karla, sans-serif;
   font-size: 1rem;
 }
 
@@ -177,7 +182,7 @@ nav {
   border: none;
   transition: opacity 0.25s ease-in;
   cursor: pointer;
-  font-family: 'karla';
+  font-family: Inter-Regular, Karla, sans-serif;
   font-size: 1rem;
   -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
@@ -295,7 +300,7 @@ footer {
 
   .projects__layout {
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     align-items: center;
   }
 

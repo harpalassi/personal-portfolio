@@ -1,4 +1,6 @@
-# Portfolio 2019 🖼
+# Personal Portfolio 🖼
+
+🚀 Deployed at: https://www.harpalassi.com
 
 ## Description
 
@@ -11,5 +13,3 @@ I wanted to build a portfolio that was minimal, responsive, and accessible, yet 
 ## Tools
 
 I chose to use React for the front-end so I could map through my components and display them dynamically as well as wanting to take an overall deeper dive into the library. I incorporated lazy-loading components with `Suspense` and `React.lazy()`. I also utilized React Hooks over class-based components as I prefer the syntax.
-
-🚀 Deployed at: https://www.harpalassi.com

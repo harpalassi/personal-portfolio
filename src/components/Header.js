@@ -21,10 +21,9 @@ const Header = () => {
           <br />
           <p>
             After several years of touring, I found myself falling in love with programming and its
-            infinite possibilities to solve real-world problems. I currently work in full-stack
-            technologies such as React, JavaScript, CSS3, Sass, HTML5, MySQL, Node.js, Express, and
-            MongoDB. I'm passionate about building apps that are clean, accessible, and efficient
-            for both users and developers alike.
+            infinite possibilities to solve real-world problems. I enjoy working in full-stack
+            technologies such as React, Node.js, Express, MongoDB, MySQL, JavaScript, CSS3, Sass,
+            and HTML5.
           </p>
           <br />
           <p>
@@ -42,8 +41,8 @@ const Header = () => {
           <br />
           <p>
             <div id="contact">
-              Contact me below to chat about opportunities, programming, britcoms, horror films, or
-              just to say hello.
+              Contact me below to chat about full-time opportunities, programming, britcoms, horror
+              films, records, or just to say hello.
             </div>
           </p>
         </div>
@@ -72,6 +71,14 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <i className="fab fa-github-square" />
+        </a>
+        <a
+          href="https://www.discogs.com/artist/2289768-Harpal-Assi"
+          target="_blank"
+          aria-label="discogs"
+          rel="noopener noreferrer"
+        >
+          <i class="fas fa-compact-disc" />
         </a>
       </div>
     </header>

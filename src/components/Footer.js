@@ -30,6 +30,14 @@ const Footer = () => {
         >
           <i className="fab fa-github-square" />
         </a>
+        <a
+          href="https://www.discogs.com/artist/2289768-Harpal-Assi"
+          target="_blank"
+          aria-label="discogs"
+          rel="noopener noreferrer"
+        >
+          <i class="fas fa-compact-disc" />
+        </a>
       </div>
     </footer>
   );

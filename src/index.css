@@ -47,14 +47,16 @@ html {
 }
 
 .fab,
-.far {
+.far,
+.fas {
   color: #0c0c0c;
   -webkit-transition: -webkit-transform 0.8s ease-in-out;
   transition: transform 0.8s ease-in-out;
 }
 
 .fab:hover,
-.far:hover {
+.far:hover,
+.fas:hover {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
 }

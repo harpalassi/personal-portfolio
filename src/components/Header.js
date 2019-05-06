@@ -21,9 +21,9 @@ const Header = props => {
           <br />
           <p>
             After several years of touring, I found myself falling in love with programming and its
-            infinite possibilities to solve real-world problems. I enjoy working in full-stack
-            technologies such as React, Node.js, Express, MongoDB, MySQL, JavaScript, CSS3, Sass,
-            and HTML5.
+            infinite possibilities to solve real-world problems. I enjoy creating responsive
+            websites using full-stack technologies such as React, Node.js, Express, MongoDB, MySQL,
+            JavaScript, CSS3, Sass, and HTML5.
           </p>
           <br />
           <p>

@@ -1,62 +1,53 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import Resume from "../resume/resume.pdf";
 
-class Navbar extends Component {
-  state = {
-    active: true
+function Navbar() {
+  const [active, setActive] = useState(true);
+
+  const toggleClass = () => {
+    setActive(!active);
   };
 
-  toggleClass = () => {
-    this.setState({ active: !this.state.active });
-  };
+  return (
+    <nav>
+      <div className="hamburger" onClick={toggleClass}>
+        <div className={active ? "line open" : "line"} />
+        <div className={active ? "line open" : "line"} />
+        <div className={active ? "line open" : "line"} />
+      </div>
 
-  render() {
-    return (
-      <nav>
-        <div className="hamburger" onClick={this.toggleClass}>
-          <div className={this.state.active ? "line open" : "line"} />
-          <div className={this.state.active ? "line open" : "line"} />
-          <div className={this.state.active ? "line open" : "line"} />
-        </div>
+      <ul className={active ? "nav-links closed" : "nav-links"}>
+        <li>
+          <a href="#about" aria-label="about" onClick={toggleClass} className="nav-link">
+            About
+          </a>
+        </li>
 
-        <ul className={this.state.active ? "nav-links closed" : "nav-links"}>
-          <li>
-            <a href="#about" aria-label="about" onClick={this.toggleClass} className="nav-link">
-              About
-            </a>
-          </li>
-
-          <li>
-            <a href="#contact" aria-label="contact" onClick={this.toggleClass} className="nav-link">
-              Contact
-            </a>
-          </li>
-          <li>
-            <a
-              href="#projects"
-              aria-label="projects"
-              onClick={this.toggleClass}
-              className="nav-link"
-            >
-              Projects
-            </a>
-          </li>
-          <li>
-            <a
-              href={Resume}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="resume"
-              onClick={this.toggleClass}
-              className="nav-link"
-            >
-              Resumé
-            </a>
-          </li>
-        </ul>
-      </nav>
-    );
-  }
+        <li>
+          <a href="#contact" aria-label="contact" onClick={toggleClass} className="nav-link">
+            Contact
+          </a>
+        </li>
+        <li>
+          <a href="#projects" aria-label="projects" onClick={toggleClass} className="nav-link">
+            Projects
+          </a>
+        </li>
+        <li>
+          <a
+            href={Resume}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="resume"
+            onClick={toggleClass}
+            className="nav-link"
+          >
+            Resumé
+          </a>
+        </li>
+      </ul>
+    </nav>
+  );
 }
 
 export default Navbar;

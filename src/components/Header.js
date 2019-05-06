@@ -1,7 +1,7 @@
 import React from "react";
 import Resume from "../resume/resume.pdf";
 
-const Header = () => {
+const Header = props => {
   return (
     <header id="about">
       <div className="row-wrap">
@@ -47,39 +47,16 @@ const Header = () => {
           </p>
         </div>
       </div>
+
       <div className="icons">
-        <a
-          href="https://www.linkedin.com/in/harpal-assi/"
-          aria-label="linked-in"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-linkedin" />
-        </a>
-        <a
-          href="mailto:harpalassi@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="email"
-        >
-          <i className="far fa-envelope" />
-        </a>
-        <a
-          href="https://www.github.com/harpalassi"
-          target="_blank"
-          aria-label="github"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-github-square" />
-        </a>
-        <a
-          href="https://www.discogs.com/artist/2289768-Harpal-Assi"
-          target="_blank"
-          aria-label="discogs"
-          rel="noopener noreferrer"
-        >
-          <i class="fas fa-compact-disc" />
-        </a>
+        {props.contactLinks.map(contactLink => {
+          const { id, link, name, icon } = contactLink;
+          return (
+            <a key={id} href={link} aria-label={name} target="_blank" rel="noopener noreferrer">
+              <i className={icon} />
+            </a>
+          );
+        })}
       </div>
     </header>
   );

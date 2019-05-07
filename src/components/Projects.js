@@ -7,7 +7,7 @@ function Projects() {
       id: 1,
       title: "Car Mate",
       image:
-        "https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/carmate.jpg",
+        "https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/car-mate.jpg",
       description: ` A full-stack app where individuals can keep track of their vehicle's maintenance and preventative measures. Users can check which services are available on the landing page, then log in to their account to view and save their vehicle's service details. Data is obtained from CarMD and saved into a MongoDB database. `,
       challenges: ` This app was built with a team of three others in which my role was to build our API to make calls to the CarMD server, save them to our database, and render them to the user. This proved challenging to start as I ran into CORS issues client-side, and ultimately built it server-side. I then organized making several API requests at once, ensured that the data was parsed correctly to save to the database, and sent it back to the client for rendering within a component's state. `,
       environment: ` React, React Router, Axios, Material UI, MongoDB, Express, Node.js, Passport, Mongoose`,

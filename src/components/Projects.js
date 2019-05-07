@@ -28,7 +28,7 @@ function Projects() {
     {
       id: 3,
       title: "Game It Up",
-      image: `https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/gameitup.jpg`,
+      image: `https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/game-it-up.jpg`,
       description: ` A full-stack app for creating and finding pick-up sports games in your area. Users may log in and either create a game using Google Maps, or search for a previous one. Additionally, users have the ability to update and delete their events.
       `,
       challenges: ` This app was created with a group of developers and my role was to implement authentication into the MVC pattern, and tie it to our MySQL database. This was a challenge as I had never attempted this in the past, but I persevered using Passport.js and Google OAuth 2.0. By using Express middleware, the routes to create and find games are protected and cannot be accessed if the user is not logged in. I also converted our front-end into Handlebars for server-side rendering.`,

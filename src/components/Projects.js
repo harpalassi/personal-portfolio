@@ -18,7 +18,7 @@ function Projects() {
       id: 2,
       title: "All My Books",
       image:
-        "https://raw.githubusercontent.com/harpalassi/portfolio-2019/master/src/images/all-my-books.gif",
+        "https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/all-my-books.jpg",
       description: ` A full-stack app that allows users to quickly search for, save, and discard books of interest. Books are dynamically displayed with their respective titles, authors, description, and thumbnail via the Google Books API, and saved to a MongoDB database.`,
       challenges: ` I wanted to make my components reusable as possible which involved solving issues injecting different functions into the same components' onClick call. Building this app helped solidify my knowledge regarding passing state and props within React and using conditional rendering to achieve the results I wanted. I was also able to create this as a single-page application via React Router.`,
       environment: ` React, React Router, MongoDB, Express, Node.js, Flexbox, Mongoose`,

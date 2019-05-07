@@ -7,7 +7,7 @@ function Projects() {
       id: 1,
       title: "Car Mate",
       image:
-        "https://raw.githubusercontent.com/harpalassi/portfolio-2019/master/src/images/carmate.png",
+        "https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/carmate.jpg",
       description: ` A full-stack app where individuals can keep track of their vehicle's maintenance and preventative measures. Users can check which services are available on the landing page, then log in to their account to view and save their vehicle's service details. Data is obtained from CarMD and saved into a MongoDB database. `,
       challenges: ` This app was built with a team of three others in which my role was to build our API to make calls to the CarMD server, save them to our database, and render them to the user. This proved challenging to start as I ran into CORS issues client-side, and ultimately built it server-side. I then organized making several API requests at once, ensured that the data was parsed correctly to save to the database, and sent it back to the client for rendering within a component's state. `,
       environment: ` React, React Router, Axios, Material UI, MongoDB, Express, Node.js, Passport, Mongoose`,
@@ -39,7 +39,7 @@ function Projects() {
     {
       id: 4,
       title: "Mixmag News Scraper",
-      image: `https://raw.githubusercontent.com/harpalassi/portfolio-2019/master/src/images/mixmag-scraper.png`,
+      image: `https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/mixmag-scraper.jpg`,
       description: ` A full-stack app which scrapes the latest news from mixmag.net, stores them in a database, and presents them in a clean layout. Users may also add and delete comments on each article via a pop-up modal. The total number of comments are shown on each article.`,
       challenges: ` This app presented several challenges ranging from how to use templating with server side rendering, traversing the DOM to scrape data, and utilizing CRUD within MongoDB. These issues had me debugging for several hours, but I was able to solve them after breaking the code down into smaller chunks.`,
       environment: ` JavaScript, Node.js, jQuery, MongoDB, Mongoose, Express, Axios, Cheerio, Materialize, Handlebars`,
@@ -49,7 +49,7 @@ function Projects() {
     {
       id: 5,
       title: "Twitter Data Analyser",
-      image: `https://raw.githubusercontent.com/harpalassi/portfolio-2019/master/src/images/twitter-analyser.png`,
+      image: `https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/twitter-analyser.jpg`,
       description: ` A web app which analyses and displays Donald Trump's tweets into a word bubble and a bar graph. These show his most frequently used words and the time of day they were posted. His tweets are juxtaposed by the latest headlines from Fox News.`,
       challenges: ` This app was a group effort in which my role was to retrieve data from a news API, display the feed on the front-end, and help customize the layout as whole. My biggest challenge was getting comfortable using Git with a team of developers. Working with others helped strengthen my foundation for creating branches, pull requests, resolving conflicts, and merging files.`,
       environment: ` JavaScript, jQuery, Materialize, Firebase, jQCloud, Chart.js`,

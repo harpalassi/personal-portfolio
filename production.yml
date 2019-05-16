@@ -1,0 +1,13 @@
+version: "3.1"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./compose/production/Dockerfile
+    image: personal-portfolio
+    ports:
+      - "3000:3000"
+    restart: on-failure
+    volumes:
+      - ./:/usr/src/app/
+    entrypoint: production.sh

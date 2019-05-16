@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
 git pull
 yarn build
-yarn production
+yarn global add serve
+serve -s build

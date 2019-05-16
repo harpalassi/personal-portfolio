@@ -5,3 +5,4 @@ WORKDIR /usr/src/app/
 
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg |  apt-key add - && apt update && apt install -y yarn git 
 RUN git clone https://github.com/harpalassi/personal-portfolio.git .
+COPY production.sh /usr/src/app/production.sh

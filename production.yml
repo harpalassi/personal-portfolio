@@ -6,7 +6,7 @@ services:
       dockerfile: ./compose/production/Dockerfile
     image: personal-portfolio
     ports:
-      - "3000:3000"
+      - "5000:5000"
     restart: on-failure
     volumes:
       - ./:/usr/src/app/

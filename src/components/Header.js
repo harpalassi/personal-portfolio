@@ -7,7 +7,7 @@ const Header = props => {
       <div className="row-wrap">
         <div className="about__image">
           <img
-            src="https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/profile-picture.jpg"
+            src="https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/profile.jpg"
             alt="Portait"
             className="about__picture"
           />

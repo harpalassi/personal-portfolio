@@ -27,6 +27,16 @@ function Projects() {
     },
     {
       id: 3,
+      title: "Mixmag News Scraper",
+      image: `https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/mixmag-scraper.jpg`,
+      description: ` A full-stack app which scrapes the latest news from mixmag.net, stores them in a database, and presents them in a clean layout. Users may also add and delete comments on each article via a pop-up modal. The total number of comments are shown on each article.`,
+      challenges: ` This app presented several challenges ranging from how to use templating with server side rendering, traversing the DOM to scrape data, and utilizing CRUD within MongoDB. These issues had me debugging for several hours, but I was able to solve them after breaking the code down into smaller chunks.`,
+      environment: ` JavaScript, Node.js, jQuery, MongoDB, Mongoose, Express, Axios, Cheerio, Materialize, Handlebars`,
+      codelink: `https://github.com/harpalassi/mixmag-news-scraper`,
+      demolink: `https://mixmag-news-scraper.herokuapp.com`
+    },
+    {
+      id: 4,
       title: "Game It Up",
       image: `https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/game-it-up.jpg`,
       description: ` A full-stack app for creating and finding pick-up sports games in your area. Users may log in and either create a game using Google Maps, or search for a previous one. Additionally, users have the ability to update and delete their events.
@@ -36,16 +46,7 @@ function Projects() {
       codelink: `https://github.com/harpalassi/game-it-up`,
       demolink: `https://gameitup.herokuapp.com`
     },
-    {
-      id: 4,
-      title: "Mixmag News Scraper",
-      image: `https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/mixmag-scraper.jpg`,
-      description: ` A full-stack app which scrapes the latest news from mixmag.net, stores them in a database, and presents them in a clean layout. Users may also add and delete comments on each article via a pop-up modal. The total number of comments are shown on each article.`,
-      challenges: ` This app presented several challenges ranging from how to use templating with server side rendering, traversing the DOM to scrape data, and utilizing CRUD within MongoDB. These issues had me debugging for several hours, but I was able to solve them after breaking the code down into smaller chunks.`,
-      environment: ` JavaScript, Node.js, jQuery, MongoDB, Mongoose, Express, Axios, Cheerio, Materialize, Handlebars`,
-      codelink: `https://github.com/harpalassi/mixmag-news-scraper`,
-      demolink: `https://mixmag-news-scraper.herokuapp.com`
-    },
+
     {
       id: 5,
       title: "Twitter Data Analyser",

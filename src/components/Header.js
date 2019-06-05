@@ -22,7 +22,7 @@ const Header = props => {
             After several years of touring, I found myself falling in love with programming and its
             infinite possibilities to solve real-world problems. I enjoy building responsive
             websites using full-stack technologies such as React, Node.js, Express, MongoDB, MySQL,
-            JavaScript, CSS3, Sass, and HTML5. Lately, I've been digging into Gatsby and GraphQL.
+            JavaScript, CSS3, Sass, and HTML5. Lately, I've been having fun with Gatsby and GraphQL as well as contributing to open-source software.
           </p>
           <p className="header_paragraph">
             {" "}

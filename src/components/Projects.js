@@ -5,6 +5,17 @@ function Projects() {
   const [project, setProject] = useState([
     {
       id: 1,
+      title: "Bluebonnet Records",
+      image:
+        "https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/bluebonnet.jpg",
+      description: ` A freelance website created for the client, Bluebonnet Records, located in Lockhart, TX. Provides links to all relevant information and shops. `,
+      challenges: ` There were design challenges as to where to place the details the client needed as well as the color scheme. I wanted the details to be present and above the fold and the colors to blend well. Working with SVGs within CSS and Flexbox was a newer concept, but I enjoyed learning how they work. `,
+      environment: ` Webpack, HTML5, JavaScript, CSS3 with Grid and Flexbox, Node.js`,
+      codelink: `https://github.com/capndave/bluebonnet_records`,
+      demolink: `https://www.bluebonnet-records.com`
+    },
+    {
+      id: 2,
       title: "Car Mate",
       image:
         "https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/car-mate.jpg",
@@ -15,7 +26,7 @@ function Projects() {
       demolink: `http://www.carmate.info`
     },
     {
-      id: 2,
+      id: 3,
       title: "All My Books",
       image:
         "https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/allmybooks.jpg",
@@ -26,7 +37,7 @@ function Projects() {
       demolink: `https://all-my-books.herokuapp.com`
     },
     {
-      id: 3,
+      id: 4,
       title: "Mixmag News Scraper",
       image: `https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/mixmag-scraper.jpg`,
       description: ` A full-stack app which scrapes the latest news from mixmag.net, stores them in a database, and presents them in a clean layout. Users may also add and delete comments on each article via a pop-up modal. The total number of comments are shown on each article.`,
@@ -36,7 +47,7 @@ function Projects() {
       demolink: `https://mixmag-news-scraper.herokuapp.com`
     },
     {
-      id: 4,
+      id: 5,
       title: "Game It Up",
       image: `https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/game-it-up.jpg`,
       description: ` A full-stack app for creating and finding pick-up sports games in your area. Users may log in and either create a game using Google Maps, or search for a previous one. Additionally, users have the ability to update and delete their events.
@@ -48,7 +59,7 @@ function Projects() {
     },
 
     {
-      id: 5,
+      id: 6,
       title: "Twitter Data Analyser",
       image: `https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/twitter-analyser.jpg`,
       description: ` A web app which analyses and displays Donald Trump's tweets into a word bubble and a bar graph. These show his most frequently used words and the time of day they were posted. His tweets are juxtaposed by the latest headlines from Fox News.`,

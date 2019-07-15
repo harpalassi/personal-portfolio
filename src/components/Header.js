@@ -38,8 +38,7 @@ const Header = props => {
           </p>{" "}
           <p className="header_paragraph">
             <div id="contact">
-              Contact me below to chat about full-time opportunities, programming, britcoms, horror
-              films, records, or just to say hello.
+              Contact me below to chat about full-time opportunities, programming, britcoms, raspberry pi, records, or just to say hello.
             </div>
           </p>
         </div>

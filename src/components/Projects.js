@@ -124,7 +124,7 @@ function Projects() {
                   <span className="sections">Challenges</span>:{challenges}
                 </h4>
                 <h4 className="subtext">
-                  <span className="sections">Environment</span>:{environment}
+                  <span className="sections">Technologies Used</span>:{environment}
                 </h4>
               </div>
             </div>

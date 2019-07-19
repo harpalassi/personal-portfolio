@@ -239,7 +239,8 @@ nav {
 }
 
 .nav-link:hover {
-  border-bottom: 2px #2a49cf solid;
+  border-bottom: 3px #2a49cf solid;
+  transition: all 0.14s ease-in-out;
 }
 
 .img__container {

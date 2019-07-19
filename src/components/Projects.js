@@ -8,7 +8,7 @@ function Projects() {
       title: 'Bluebonnet Records',
       image:
         'https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/bluebonnet.jpg',
-      description: ` A freelance mobile-responsive website created for the client, Bluebonnet Records, located in Lockhart, TX. The layout clearly presents shop details, links to maps, social media, and shops. `,
+      description: ` A freelance mobile-responsive website created for the client, Bluebonnet Records, located in Lockhart, TX. The layout clearly presents shop details, links to maps, social media, and stores. `,
       challenges: ` There were design challenges as to where to place the details the client needed, how to make them responsive for mobile screens, as well as selecting the overall color scheme. I wanted the details to be present and above the fold, and the colors to blend well. Working with SVGs within CSS and Flexbox was a newer concept, but I enjoyed learning how they work. `,
       environment: ` Webpack, HTML5, JavaScript, CSS3 with Grid and Flexbox, Node.js`,
       codelink: `https://github.com/capndave/bluebonnet_records`,

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata|Karla');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
 
 :root {
   --primary-color: #fffff0;
@@ -28,8 +28,8 @@ html {
 }
 
 @font-face {
-  font-family: 'Inter-Bold';
-  src: local('Inter-Bold'), url(./fonts/Inter-Bold.woff) format('woff');
+  font-family: 'Inter-SemiBold';
+  src: local('Inter-SemiBold'), url(./fonts/Inter-SemiBold.woff) format('woff');
 }
 
 .wrapper {
@@ -180,12 +180,12 @@ nav {
 }
 
 .project__description h4 {
-  font-family: Inter-Regular, Karla, sans-serif;
+  font-family: Inter-Regular, sans-serif;
   font-size: 1rem;
 }
 
 .sections {
-  font-family: Inter-Bold, Karla, sans-serif;
+  font-family: Inter-SemiBold, sans-serif;
   text-decoration: underline;
 }
 
@@ -197,7 +197,7 @@ nav {
   border: none;
   transition: opacity 0.25s ease-in;
   cursor: pointer;
-  font-family: Inter-Regular, Karla, sans-serif;
+  font-family: Inter-Regular, sans-serif;
   font-size: 1rem;
   -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);

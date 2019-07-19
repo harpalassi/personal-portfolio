@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap');
 
 :root {
   --primary-color: #fffff0;
@@ -99,6 +99,7 @@ html {
 
 .title h1 {
   font-size: 5rem;
+  font-weight: bold;
   margin-bottom: 0.5rem;
 }
 
@@ -136,6 +137,7 @@ nav {
   align-self: flex-start;
   color: #edc42f;
   font-size: 6rem;
+  font-weight: bold;
 }
 
 .project__title {

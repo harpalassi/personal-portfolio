@@ -50,15 +50,16 @@ html {
 .far,
 .fas {
   color: #0c0c0c;
-  -webkit-transition: -webkit-transform 0.8s ease-in-out;
-  transition: transform 0.8s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 .fab:hover,
 .far:hover,
 .fas:hover {
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  color: #2a49cf;
 }
 
 /* about me */
@@ -238,7 +239,7 @@ nav {
 }
 
 .nav-link:hover {
-  border-bottom: 2px #0c0c0c solid;
+  border-bottom: 2px #2a49cf solid;
 }
 
 .img__container {

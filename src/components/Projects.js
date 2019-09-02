@@ -8,7 +8,7 @@ function Projects() {
       title: 'Bluebonnet Records',
       image:
         'https://raw.githubusercontent.com/harpalassi/personal-portfolio/master/src/images/bluebonnet.jpg',
-      description: ` A freelance mobile-responsive website created for the client, Bluebonnet Records, located in Lockhart, TX. The layout clearly presents shop details, links to maps, social media, and stores. `,
+      description: ` A freelance mobile-responsive website  created for the client, Bluebonnet Records, located in Lockhart, TX. The layout clearly presents shop details, links to maps, social media, and stores. `,
       challenges: ` There were design challenges as to where to place the details the client needed, how to make them responsive for mobile screens, as well as selecting the overall color scheme. I wanted the details to be present and above the fold, and the colors to blend well. Working with SVGs within CSS and Flexbox was a newer concept, but I enjoyed learning how they scale. `,
       environment: ` Webpack, HTML5, JavaScript, CSS3 with Grid and Flexbox, Node.js`,
       codelink: `https://github.com/capndave/bluebonnet_records`,
@@ -72,7 +72,7 @@ function Projects() {
 
   return (
     <main>
-      <section id="projects">
+      <section id='projects'>
         <h2>PROJECTS</h2>
 
         {project.map(project => {
@@ -87,44 +87,47 @@ function Projects() {
             demolink
           } = project;
           return (
-            <div className="projects__layout">
-              <div className="img__container">
+            <div className='projects__layout'>
+              <div className='img__container'>
                 <Suspense fallback={<div>Loading..</div>}>
                   <ProjectImage key={id} image={image} title={title} />
                 </Suspense>
-                <div className="project__buttons">
-                  <button className="project__button" tabindex="-1">
+                <div className='project__buttons'>
+                  <button className='project__button' tabindex='-1'>
                     <a
                       href={codelink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label={title ? ' link to code for ' + title : ''}>
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      aria-label={title ? ' link to code for ' + title : ''}
+                    >
                       View Code
                     </a>
                   </button>
-                  <button className="project__button" tabindex="-1">
+                  <button className='project__button' tabindex='-1'>
                     <a
                       href={demolink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label={title ? 'link to demo for ' + title : ''}>
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      aria-label={title ? 'link to demo for ' + title : ''}
+                    >
                       View Demo
                     </a>
                   </button>
                 </div>
               </div>
-              <div className="project__description">
-                <div className="project__title">
+              <div className='project__description'>
+                <div className='project__title'>
                   <h3>{title}</h3>
                 </div>
                 <h4>
-                  <span className="sections">Description</span>:{description}
+                  <span className='sections'>Description</span>:{description}
                 </h4>
-                <h4 className="subtext">
-                  <span className="sections">Challenges</span>:{challenges}
+                <h4 className='subtext'>
+                  <span className='sections'>Challenges</span>:{challenges}
                 </h4>
-                <h4 className="subtext">
-                  <span className="sections">Technologies Used</span>:{environment}
+                <h4 className='subtext'>
+                  <span className='sections'>Technologies Used</span>:
+                  {environment}
                 </h4>
               </div>
             </div>

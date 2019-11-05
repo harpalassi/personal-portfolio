@@ -5,6 +5,7 @@ import Projects from './components/Projects.js';
 import Footer from './components/Footer.js';
 
 function App() {
+  // eslint-disable-next-line
   const [contactLinks, setContactLinks] = useState([
     {
       id: 1,

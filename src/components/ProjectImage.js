@@ -3,9 +3,9 @@ import React from 'react';
 const ProjectImage = props => {
   return (
     <img
-      key={props.key}
+      key={props.id}
       src={props.image}
-      className="project__img"
+      className='project__img'
       alt={props.title}
     />
   );

@@ -2,6 +2,7 @@ import React, { useState, lazy, Suspense } from 'react';
 const ProjectImage = lazy(() => import('./ProjectImage'));
 
 function Projects() {
+  // eslint-disable-next-line
   const [project, setProject] = useState([
     {
       id: 1,
@@ -87,10 +88,10 @@ function Projects() {
             demolink
           } = project;
           return (
-            <div className='projects__layout'>
+            <div key={id} id={id} className='projects__layout'>
               <div className='img__container'>
                 <Suspense fallback={<div>Loading..</div>}>
-                  <ProjectImage key={id} image={image} title={title} />
+                  <ProjectImage key={id} id={id} image={image} title={title} />
                 </Suspense>
                 <div className='project__buttons'>
                   <button className='project__button' tabIndex='-1'>

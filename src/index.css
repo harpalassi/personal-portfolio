@@ -104,12 +104,9 @@ html {
   margin-bottom: 0.5rem;
 }
 
-.title p {
-  font-size: 1.33rem;
-}
-
 .header_paragraph {
   margin-bottom: 0.5rem;
+  font-size: 1.33rem;
 }
 
 nav {

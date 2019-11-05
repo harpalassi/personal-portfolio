@@ -93,8 +93,9 @@ function Projects() {
                   <ProjectImage key={id} image={image} title={title} />
                 </Suspense>
                 <div className='project__buttons'>
-                  <button className='project__button' tabindex='-1'>
+                  <button className='project__button' tabIndex='-1'>
                     <a
+                      key={id}
                       href={codelink}
                       target='_blank'
                       rel='noopener noreferrer'
@@ -103,8 +104,9 @@ function Projects() {
                       View Code
                     </a>
                   </button>
-                  <button className='project__button' tabindex='-1'>
+                  <button className='project__button' tabIndex='-1'>
                     <a
+                      key={id}
                       href={demolink}
                       target='_blank'
                       rel='noopener noreferrer'
@@ -117,17 +119,25 @@ function Projects() {
               </div>
               <div className='project__description'>
                 <div className='project__title'>
-                  <h3>{title}</h3>
+                  <h3 key={id}>{title}</h3>
                 </div>
                 <h4>
-                  <span className='sections'>Description</span>:{description}
+                  <span key={id} className='sections'>
+                    Description
+                  </span>
+                  :{description}
                 </h4>
                 <h4 className='subtext'>
-                  <span className='sections'>Challenges</span>:{challenges}
+                  <span key={id} className='sections'>
+                    Challenges
+                  </span>
+                  :{challenges}
                 </h4>
                 <h4 className='subtext'>
-                  <span className='sections'>Technologies Used</span>:
-                  {environment}
+                  <span key={id} className='sections'>
+                    Technologies Used
+                  </span>
+                  :{environment}
                 </h4>
               </div>
             </div>

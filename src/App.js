@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import Navbar from "./components/Navbar";
-import Header from "./components/Header";
-import Projects from "./components/Projects.js";
-import Footer from "./components/Footer.js";
+import React, { useState } from 'react';
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import Projects from './components/Projects.js';
+import Footer from './components/Footer.js';
 
 function App() {
   const [contactLinks, setContactLinks] = useState([
@@ -33,7 +33,7 @@ function App() {
   ]);
 
   return (
-    <div className="wrapper">
+    <div className='wrapper'>
       <Navbar />
       <Header contactLinks={contactLinks} />
       <Projects />

@@ -38,7 +38,7 @@ const Header = props => {
               rel='noopener noreferrer'
               aria-label='resume'
             >
-              resumé
+              résumé
             </a>
             .{' '}
           </p>{' '}

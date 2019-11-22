@@ -15,14 +15,14 @@ const Header = props => {
         <div className='title'>
           <h1>HARPAL ASSI</h1>
           <p className='header_paragraph'>
-            I'm Harpal! I'm a full-stack web developer, musician, and tech
+            I'm Harpal! I'm a full-stack software engineer, musician, and tech
             addict born in the UK and currently residing in Austin, TX.
           </p>
           <p className='header_paragraph'>
             After several years of touring, I found myself falling in love with
             programming and its infinite possibilities to solve real-world
             problems. I enjoy contributing to open-source and building
-            responsive websites using technologies such as JavaScript, React,
+            responsive apps using technologies such as JavaScript, React,
             Node.js, Express, MongoDB, MySQL, CSS3, SCSS, and HTML5.
           </p>
           <p className='header_paragraph'>

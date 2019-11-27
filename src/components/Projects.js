@@ -74,7 +74,7 @@ function Projects() {
   return (
     <main>
       <section id='projects'>
-        <h2>PROJECTS</h2>
+        <h2> SELECTED PROJECTS</h2>
 
         {project.map(project => {
           const {

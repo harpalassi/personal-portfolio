@@ -144,6 +144,10 @@ nav {
   margin-bottom: 1.5vh;
 }
 
+.bold {
+  font-weight: 800;
+}
+
 .subtext {
   margin-top: 2vh;
 }

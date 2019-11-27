@@ -15,8 +15,10 @@ const Header = props => {
         <div className='title'>
           <h1>HARPAL ASSI</h1>
           <p className='header_paragraph'>
-            I'm Harpal! I'm a full-stack software engineer, musician, and tech
-            addict born in the UK and currently residing in Austin, TX.
+            I'm Harpal! I'm a{' '}
+            <span className='bold'>full-stack software engineer</span>,
+            musician, and tech addict born in the UK and currently residing in
+            Austin, TX.
           </p>
           <p className='header_paragraph'>
             After several years of touring, I found myself falling in love with

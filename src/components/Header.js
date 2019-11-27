@@ -29,7 +29,7 @@ const Header = props => {
           </p>
           <p className='header_paragraph'>
             {' '}
-            Feel free to check out some of my{' '}
+            Feel free to check out a selection of my{' '}
             <a href='#projects' aria-label='projects'>
               projects
             </a>{' '}

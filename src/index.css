@@ -161,6 +161,7 @@ nav {
 }
 
 .project__img {
+  margin-top: 0.4rem;
   width: 450px;
   -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);

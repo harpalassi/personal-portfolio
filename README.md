@@ -1,5 +1,7 @@
 # Personal Portfolio ⚡
 
+[![CircleCI](https://circleci.com/gh/harpalassi/personal-portfolio.svg?style=svg)](https://circleci.com/gh/harpalassi/personal-portfolio)
+
 ## Description
 
 My current portfolio that I built with React and CSS Flexbox which incorporates `a11y` and showcases projects I've worked on myself and with other developers.

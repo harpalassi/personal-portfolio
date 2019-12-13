@@ -4,7 +4,7 @@
 
 ## Description
 
-My current portfolio that I built with React and CSS Flexbox which incorporates `a11y` and showcases projects I've worked on myself and with other developers.
+My current portfolio that I built with React and CSS3 which incorporates `a11y` and showcases projects I've worked on myself and with other developers.
 
 ![Screenshot](screenshot.png)
 
@@ -43,4 +43,6 @@ I chose to use React for the front-end so I could map through my components and 
 - React
 - CSS Flexbox
 - Node.js
+- Jest
 - Docker
+- CircleCI

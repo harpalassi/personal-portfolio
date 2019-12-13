@@ -1,6 +1,6 @@
 # Personal Portfolio ⚡
 
-[![CircleCI](https://circleci.com/gh/harpalassi/personal-portfolio.svg?style=svg)](https://circleci.com/gh/harpalassi/personal-portfolio)
+[![CircleCI](https://circleci.com/gh/harpalassi/personal-portfolio.svg?style=shield)](https://circleci.com/gh/harpalassi/personal-portfolio)
 
 ## Description
 

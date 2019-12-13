@@ -16,7 +16,7 @@ The following instructions will get you a copy of the project up and running on 
 
 ### Installation with Docker
 
-- Using a local settings
+- Using local settings
 
 ```javascript
 docker-compose -f local.yml build

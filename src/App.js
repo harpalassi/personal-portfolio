@@ -10,25 +10,25 @@ function App() {
     {
       id: 1,
       link: `https://www.linkedin.com/in/harpal-assi/`,
-      name: `linked-in`,
+      name: `LinkedIn`,
       icon: `fab fa-linkedin`
     },
     {
       id: 2,
       link: `mailto:harpalassi@gmail.com`,
-      name: `email`,
+      name: `E-mail`,
       icon: `far fa-envelope`
     },
     {
       id: 3,
       link: `https://www.github.com/harpalassi`,
-      name: `github`,
+      name: `GitHub`,
       icon: `fab fa-github-square`
     },
     {
       id: 4,
       link: `https://www.discogs.com/artist/2289768-Harpal-Assi`,
-      name: `discogs`,
+      name: `Discogs`,
       icon: `fas fa-compact-disc`
     }
   ]);

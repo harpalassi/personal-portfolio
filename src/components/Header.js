@@ -64,6 +64,7 @@ const Header = props => {
               aria-label={name}
               target='_blank'
               rel='noopener noreferrer'
+              title={name}
             >
               <i className={icon} />
             </a>

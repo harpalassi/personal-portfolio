@@ -41,7 +41,7 @@ I chose to use React for the front-end so I could map through my components and 
 ## Built With
 
 - React
-- CSS Flexbox
+- CSS3
 - Node.js
 - Jest
 - Docker

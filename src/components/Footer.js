@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = props => {
   return (
     <footer>
-      <p>Built with React and Flexbox</p>
+      <p>Built with React</p>
       <p>© 2019 Harpal Assi</p>
       <div className='bottom-icons'>
         {props.contactLinks.map(contactLink => {
@@ -15,6 +15,7 @@ const Footer = props => {
               aria-label={name}
               target='_blank'
               rel='noopener noreferrer'
+              title={name}
             >
               <i className={icon} />
             </a>

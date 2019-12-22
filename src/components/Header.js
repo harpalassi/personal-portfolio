@@ -24,8 +24,8 @@ const Header = props => {
             After several years of touring, I found myself falling in love with
             programming and its infinite possibilities to solve real-world
             problems. I enjoy contributing to open-source and building
-            responsive apps using technologies such as JavaScript, React,
-            Node.js, Express, MongoDB, MySQL, CSS3, SCSS, and HTML5.
+            full-stack apps using technologies such as JavaScript, React, React
+            Native, Node.js, GraphQL, Express, MongoDB, SQL, CSS.
           </p>
           <p className='header_paragraph'>
             {' '}
@@ -46,9 +46,8 @@ const Header = props => {
           </p>{' '}
           <div className='header_paragraph'>
             <div id='contact'>
-              Contact me below to chat about full-time opportunities,
-              programming, britcoms, raspberry pi, records, or just to say
-              hello.
+              Contact me below to chat about opportunities, programming,
+              britcoms, raspberry pi, records, or just to say hello.
             </div>
           </div>
         </div>

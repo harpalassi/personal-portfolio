@@ -1,6 +1,7 @@
 # Personal Portfolio ⚡
 
 [![CircleCI](https://circleci.com/gh/harpalassi/personal-portfolio.svg?style=shield)](https://circleci.com/gh/harpalassi/personal-portfolio)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d7e9a491-fe91-4a99-9009-ed7ae0ac5d35/deploy-status)](https://app.netlify.com/sites/harpalassi/deploys)
 
 ## Description
 

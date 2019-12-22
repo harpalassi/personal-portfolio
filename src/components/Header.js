@@ -23,15 +23,15 @@ const Header = props => {
           <p className='header_paragraph'>
             After several years of touring, I found myself falling in love with
             programming and its infinite possibilities to solve real-world
-            problems. I enjoy contributing to open-source and building
+            problems. I enjoy contributing to open-source software and building
             full-stack apps using technologies such as JavaScript, React, React
-            Native, Node.js, GraphQL, Express, MongoDB, SQL, CSS.
+            Native, Node.js, GraphQL, Express, MongoDB, SQL, and CSS.
           </p>
           <p className='header_paragraph'>
             {' '}
             Feel free to check out a selection of my{' '}
             <a href='#projects' aria-label='projects'>
-              projects
+              personal projects
             </a>{' '}
             and download my{' '}
             <a

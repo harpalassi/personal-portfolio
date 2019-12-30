@@ -31,7 +31,7 @@ const Header = props => {
             {' '}
             Feel free to check out a selection of my{' '}
             <a href='#projects' aria-label='projects'>
-              personal projects
+              projects
             </a>{' '}
             and download my{' '}
             <a

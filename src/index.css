@@ -86,6 +86,10 @@ html {
   width: 100%;
 }
 
+.biography {
+  margin-top: 1vh;
+}
+
 .about__image {
   margin-right: 3vw;
   display: flex;

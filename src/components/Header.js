@@ -14,40 +14,43 @@ const Header = props => {
         </div>
         <div className='title'>
           <h1>HARPAL ASSI</h1>
-          <p className='header_paragraph'>
-            I'm Harpal! I'm a{' '}
-            <span className='bold'>full-stack software engineer</span>,
-            musician, and tech addict born in the UK and currently residing in
-            Austin, TX.
-          </p>
-          <p className='header_paragraph'>
-            After several years of touring, I found myself falling in love with
-            programming and its infinite possibilities to solve real-world
-            problems. I enjoy contributing to open-source software and building
-            full-stack apps using technologies such as JavaScript, React, React
-            Native, Node.js, GraphQL, Express, MongoDB, SQL, and CSS.
-          </p>
-          <p className='header_paragraph'>
-            {' '}
-            Feel free to check out a selection of my{' '}
-            <a href='#projects' aria-label='projects'>
-              projects
-            </a>{' '}
-            and download my{' '}
-            <a
-              href={Resume}
-              target='_blank'
-              rel='noopener noreferrer'
-              aria-label='resume'
-            >
-              résumé
-            </a>
-            .{' '}
-          </p>{' '}
-          <div className='header_paragraph'>
-            <div id='contact'>
-              Contact me below to chat about opportunities, programming,
-              britcoms, raspberry pi, records, or just to say hello.
+          <div className='biography'>
+            <p className='header_paragraph'>
+              I'm Harpal! I'm a{' '}
+              <span className='bold'>full-stack software engineer</span>,
+              musician, and tech addict born in the UK and currently residing in
+              Austin, TX.
+            </p>
+            <p className='header_paragraph'>
+              After several years of touring, I found myself falling in love
+              with programming and its infinite possibilities to solve
+              real-world problems. I enjoy contributing to open-source software
+              and building full-stack apps using technologies such as
+              JavaScript, React, React Native, Node.js, GraphQL, Express,
+              MongoDB, SQL, and CSS.
+            </p>
+            <p className='header_paragraph'>
+              {' '}
+              Feel free to check out a selection of my{' '}
+              <a href='#projects' aria-label='projects'>
+                projects
+              </a>{' '}
+              and download my{' '}
+              <a
+                href={Resume}
+                target='_blank'
+                rel='noopener noreferrer'
+                aria-label='resume'
+              >
+                résumé
+              </a>
+              .{' '}
+            </p>{' '}
+            <div className='header_paragraph'>
+              <div id='contact'>
+                Contact me below to chat about opportunities, programming,
+                britcoms, raspberry pi, records, or just to say hello.
+              </div>
             </div>
           </div>
         </div>

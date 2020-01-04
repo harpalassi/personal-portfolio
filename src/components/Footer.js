@@ -3,8 +3,14 @@ import React from 'react';
 const Footer = props => {
   return (
     <footer>
-      <p>Built with React</p>
-      <p>© 2019 Harpal Assi</p>
+      <p>
+        Built with{' '}
+        <span role='img' aria-label='coffee'>
+          ☕
+        </span>{' '}
+        and React
+      </p>
+      <p>© 2019-{new Date().getFullYear()} Harpal Assi</p>
       <div className='bottom-icons'>
         {props.contactLinks.map(contactLink => {
           const { id, link, name, icon } = contactLink;

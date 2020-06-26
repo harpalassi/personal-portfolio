@@ -13,7 +13,7 @@ function Projects() {
       challenges: ` There were design challenges as to where to place the details the client needed, how to make them responsive for mobile screens, as well as selecting the overall color scheme. I wanted the details to be present and above the fold, and the colors to blend well. Working with SVGs within CSS and Flexbox was a newer concept, but I enjoyed learning how they scale to the page. `,
       environment: ` JavaScript, Webpack, Node.js, CSS3 with Grid and Flexbox, Node.js, HTML5`,
       codelink: `https://github.com/harpalassi/bluebonnet-records`,
-      demolink: `https://www.bluebonnet-records.com`
+      demolink: `https://github.com/harpalassi/bluebonnet-records`,
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ function Projects() {
       challenges: ` This app was built with a team of three others in which my role was to build our API to make calls to the CarMD server, save them to our database, and render them to the user. This proved challenging to start as I ran into CORS issues client-side, and ultimately built it server-side. I then organized making several API requests at once, ensured that the data was parsed correctly to save to the database, and sent it back to the client for rendering within a component's state. `,
       environment: ` React, React Router, Axios, Material UI, MongoDB, Express, Node.js, Passport, Mongoose`,
       codelink: `https://www.github.com/harpalassi/car-mate`,
-      demolink: `http://www.carmate.info`
+      demolink: `http://carmateinfo.herokuapp.com`,
     },
     {
       id: 3,
@@ -35,7 +35,7 @@ function Projects() {
       challenges: ` I wanted to make my components reusable as possible which involved solving issues injecting different functions into the same components' onClick call. Building this app helped solidify my knowledge regarding passing state and props within React and using conditional rendering to achieve the results I wanted. I was also able to create this as a single-page application via React Router.`,
       environment: ` React, React Router, MongoDB, Express, Node.js, Flexbox, Mongoose`,
       codelink: `https://www.github.com/harpalassi/all-my-books`,
-      demolink: `https://all-my-books.herokuapp.com`
+      demolink: `https://all-my-books.herokuapp.com`,
     },
     {
       id: 4,
@@ -45,7 +45,7 @@ function Projects() {
       challenges: ` This app presented several challenges ranging from how to use templating with server side rendering, traversing the DOM to scrape data, and utilizing CRUD within MongoDB. These issues had me debugging for several hours, but I was able to solve them after breaking the code down into smaller chunks.`,
       environment: ` JavaScript, Node.js, jQuery, MongoDB, Mongoose, Express, Axios, Cheerio, Materialize, Handlebars`,
       codelink: `https://github.com/harpalassi/mixmag-news-scraper`,
-      demolink: `https://mixmag-news-scraper.herokuapp.com`
+      demolink: `https://mixmag-news-scraper.herokuapp.com`,
     },
     {
       id: 5,
@@ -56,7 +56,7 @@ function Projects() {
       challenges: ` This app was created with a group of developers and my role was to implement authentication into the MVC pattern, and tie it to our MySQL database. This was a challenge as I had never attempted this in the past, but I persevered using Passport.js and Google OAuth 2.0. By using Express middleware, the routes to create and find games are protected and cannot be accessed if the user is not logged in. I also converted our front-end into Handlebars for server-side rendering.`,
       environment: ` Handlebars, Passport.js, MySQL, Express, Node.js, Sequelize, jQuery, Google Maps API`,
       codelink: `https://github.com/harpalassi/game-it-up`,
-      demolink: `https://gameitup.herokuapp.com`
+      demolink: `https://gameitup.herokuapp.com`,
     },
 
     {
@@ -67,8 +67,8 @@ function Projects() {
       challenges: ` This app was a group effort in which my role was to retrieve data from a news API, display the feed on the front-end, and help customize the layout as whole. My biggest challenge was getting comfortable using Git with a team of developers. Working with others helped strengthen my foundation for creating branches, pull requests, resolving conflicts, and merging files.`,
       environment: ` JavaScript, jQuery, Materialize, Firebase, jQCloud, Chart.js`,
       codelink: `https://github.com/harpalassi/twitter-data-analyser`,
-      demolink: `https://harpalassi.github.io/twitter-data-analyser`
-    }
+      demolink: `https://harpalassi.github.io/twitter-data-analyser`,
+    },
   ]);
 
   return (
@@ -76,7 +76,7 @@ function Projects() {
       <section id='projects'>
         <h2> SELECTED PROJECTS</h2>
 
-        {project.map(project => {
+        {project.map((project) => {
           const {
             id,
             title,
@@ -85,7 +85,7 @@ function Projects() {
             challenges,
             environment,
             codelink,
-            demolink
+            demolink,
           } = project;
           return (
             <div key={id} id={id} className='projects__layout'>

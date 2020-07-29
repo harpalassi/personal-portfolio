@@ -17,23 +17,18 @@ const Header = props => {
           <div className='biography'>
             <p className='header_paragraph'>
               I'm Harpal! I'm a{' '}
-              <span className='bold'>full-stack software engineer</span>,
+              <span className='bold'>software engineer</span>,
               musician, and tech addict born in the UK and currently residing in
               Austin, TX.
             </p>
             <p className='header_paragraph'>
-              After several years of touring, I found myself falling in love
-              with programming and its infinite possibilities to solve
-              real-world problems. I enjoy contributing to open-source software
-              and building full-stack apps using technologies such as
-              JavaScript, React, React Native, Node.js, GraphQL, Express,
-              MongoDB, SQL, and CSS.
+              I am currently employed as a full-stack software engineer where I build features and maintain a point of sale application. I also enjoy contributing to open-source software and building full-stack apps using technologies such as JavaScript, React, React Native, Node.js, GraphQL, Express, MongoDB, SQL, and CSS.
             </p>
             <p className='header_paragraph'>
               {' '}
               Feel free to check out a selection of my{' '}
               <a href='#projects' aria-label='projects'>
-                projects
+                personal projects
               </a>{' '}
               and download my{' '}
               <a

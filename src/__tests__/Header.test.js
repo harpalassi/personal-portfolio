@@ -8,6 +8,7 @@ describe('Header', () => {
   beforeEach(() => {
     return wrapper = render(<Header />);
   })
+  
   it('> Header / initial load ', () => {
     expect(wrapper).toBeDefined();
   });

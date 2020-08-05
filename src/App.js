@@ -6,7 +6,7 @@ import Footer from './components/Footer.js';
 
 function App() {
   // eslint-disable-next-line
-  const [contactLinks, setContactLinks] = useState([
+  const [contactLinks] = useState([
     {
       id: 1,
       link: `https://www.linkedin.com/in/harpal-assi/`,

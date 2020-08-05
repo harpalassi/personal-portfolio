@@ -22,7 +22,7 @@ const Header = props => {
               Austin, TX.
             </p>
             <p className='header_paragraph'>
-              I am currently employed as a full-stack software engineer where I build features and maintain a point of sale application. I also enjoy contributing to open-source software and building full-stack apps using technologies such as JavaScript, React, React Native, Node.js, GraphQL, Express, MongoDB, SQL, and CSS.
+              I enjoy building full-stack applications and contributing to open-source software using technologies such as JavaScript, React, React Native, Node.js, GraphQL, Express, MongoDB, SQL, and CSS.
             </p>
             <p className='header_paragraph'>
               {' '}

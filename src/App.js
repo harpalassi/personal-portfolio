@@ -4,9 +4,9 @@ import Header from './components/Header';
 import Projects from './components/Projects.js';
 import Footer from './components/Footer.js';
 
-function App() {
+const App = () => {
   // eslint-disable-next-line
-  const [contactLinks] = useState([
+  const [contactLinks, setContactLinks] = useState([
     {
       id: 1,
       link: `https://www.linkedin.com/in/harpal-assi/`,

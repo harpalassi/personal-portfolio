@@ -1,7 +1,7 @@
 import React from 'react';
 import Resume from '../resume/resume.pdf';
 
-const Header = props => {
+const Header = ({contactLinks}) => {
   return (
     <header id='about'>
       <div className='row-wrap'>
@@ -52,7 +52,7 @@ const Header = props => {
       </div>
 
       <div className='icons'>
-        {props.contactLinks.map(contactLink => {
+        { contactLinks && contactLinks.map(contactLink => {
           const { id, link, name, icon } = contactLink;
           return (
             <a

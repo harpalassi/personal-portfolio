@@ -6,12 +6,13 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@fortawesome/react-fontawesome": "^0.1.11",
+    "jest-dom": "^4.0.0",
+    "nodemon": "^2.0.4",
     "prettier": "^2.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.1",
-    "nodemon": "^2.0.4"
+    "react-scripts": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,19 +1,23 @@
 import React from 'react';
 import Header from '../components/Header';
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect'
 
 let wrapper;
-
 describe('Header', () => {
   beforeEach(() => {
-    return wrapper = render(<Header />);
+     wrapper = render(<Header />);
+  
   })
   
   it('> Header / initial load ', () => {
     expect(wrapper).toBeDefined();
   });
   
-  it('renders my name', () => {
-  wrapper.getByText('HARPAL ASSI')
+  it('Header / renders my name', () => {
+    expect(screen.getByText(/Harpal Assi/i)).toBeInTheDocument()
+  })
+  it('Header / renders portrait photo', () => {
+    expect(screen.getByRole('img')).toBeInTheDocument()
   })
 });

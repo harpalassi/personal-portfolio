@@ -97,7 +97,7 @@ function Projects() {
               </div>
               <div className='project__description'>
                 <div className='project__title'>
-                  <h3 key={id}>{title}</h3>
+                  <h3 key={id} data-testid='ProjectTitle'>{title}</h3>
                 </div>
                 <h4>
                   <span key={id} className='sections'>

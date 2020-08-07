@@ -32,6 +32,7 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.2",
     "@testing-library/react": "^10.4.8",
-    "react-test-renderer": "^16.13.1"
+    "react-test-renderer": "^16.13.1",
+    "@babel/helper-call-delegate": "^7.10.4"
   }
 }

@@ -1,65 +1,43 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Resume from '../resume/resume.pdf';
+import NavItem from './NavItem';
+import useActive from '../hooks/useActive';
 
-function Navbar() {
-  const [active, setActive] = useState(true);
-
-  const toggleClass = () => {
-    setActive(!active);
-  };
-
+const Navbar = () => {
+  const {active, toggleActive} = useActive();
+  
+  const lineStyle = active ? 'line open' : 'line';
+  
   return (
     <nav>
-      <div className='hamburger' onClick={toggleClass}>
-        <div className={active ? 'line open' : 'line'} />
-        <div className={active ? 'line open' : 'line'} />
-        <div className={active ? 'line open' : 'line'} />
+      <div className='hamburger' onClick={toggleActive}>
+        <div className={lineStyle} />
+        <div className={lineStyle} />
+        <div className={lineStyle} />
       </div>
-
+      
       <ul className={active ? 'nav-links closed' : 'nav-links'}>
-        <li>
-          <a
-            href='#about'
-            aria-label='about'
-            onClick={toggleClass}
-            className='nav-link'
-          >
-            About
-          </a>
-        </li>
-
-        <li>
-          <a
-            href='#contact'
-            aria-label='contact'
-            onClick={toggleClass}
-            className='nav-link'
-          >
-            Contact
-          </a>
-        </li>
-        <li>
-          <a
-            href='#projects'
-            aria-label='projects'
-            onClick={toggleClass}
-            className='nav-link'
-          >
-            Projects
-          </a>
-        </li>
-        <li>
-          <a
-            href={Resume}
-            target='_blank'
-            rel='noopener noreferrer'
-            aria-label='resume'
-            onClick={toggleClass}
-            className='nav-link'
-          >
-            Résumé
-          </a>
-        </li>
+        <NavItem href={'#about'}
+                 aria-label={'about'}
+                 onClick={toggleActive}
+                 name={'About'} />
+        <NavItem href={'#contact'}
+                 aria-label={'contact'}
+                 onClick={toggleActive}
+                 name={'Contact'}
+        />
+        <NavItem href={'#projects'}
+                 aria-label={'projects'}
+                 onClick={toggleActive}
+                 name={'Projects'}
+        />
+        <NavItem href={Resume}
+                 target={'_blank'}
+                 rel={'noopener noreferrer'}
+                 aria-label={'resume'}
+                 onClick={toggleActive}
+                 name={'Résumé'}
+        />
       </ul>
     </nav>
   );

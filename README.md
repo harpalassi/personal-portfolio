@@ -31,6 +31,11 @@ docker-compose -f production.yml build
 docker-compose -f production.yml up
 ```
 
+
+## Tests 
+
+Run tests by using `yarn test` in the root folder. These specs use Jest and React Testing Library and are also set up to run via CircleCI when deploying. 
+
 ## Motivation
 
 I wanted to build a portfolio that was minimal, responsive, and accessible, yet showcase my abilities to the fullest extent. One of the biggest challenges was creating a design from scratch.

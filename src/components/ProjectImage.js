@@ -1,12 +1,12 @@
 import React from 'react';
 
-const ProjectImage = props => {
+const ProjectImage = ({id, image, title}) => {
   return (
     <img
-      key={props.id}
-      src={props.image}
+      key={id}
+      src={image}
       className='project__img'
-      alt={props.title}
+      alt={title}
     />
   );
 };

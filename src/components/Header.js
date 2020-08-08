@@ -1,7 +1,8 @@
 import React from 'react';
 import Resume from '../resume/resume.pdf';
+import Contact from './Contact';
 
-const Header = ({contactLinks}) => {
+const Header = () => {
   return (
     <header id='about'>
       <div className='row-wrap'>
@@ -52,21 +53,7 @@ const Header = ({contactLinks}) => {
       </div>
 
       <div className='icons'>
-        { contactLinks && contactLinks.map(contactLink => {
-          const { id, link, name, icon } = contactLink;
-          return (
-            <a
-              key={id}
-              href={link}
-              aria-label={name}
-              target='_blank'
-              rel='noopener noreferrer'
-              title={name}
-            >
-              <i className={icon} />
-            </a>
-          );
-        })}
+       <Contact/>
       </div>
     </header>
   );

@@ -4,10 +4,10 @@ import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect'
 
 let wrapper;
+
 describe('Header', () => {
   beforeEach(() => {
      wrapper = render(<Header />);
-  
   })
   
   it('> Header / initial load ', () => {

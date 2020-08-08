@@ -1,8 +1,29 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Navbar from '../components/Navbar';
+import React from "react";
+import Navbar from "../components/Navbar";
+import { render, screen } from "@testing-library/react";
+import "@testing-library/jest-dom/extend-expect";
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<Navbar />, div);
+let wrapper;
+
+describe("Navbar", () => {
+  beforeEach(() => {
+    wrapper = render(<Navbar />);
+  });
+
+  it("> Navbar / initial load ", () => {
+    expect(wrapper).toBeDefined();
+  });
+
+  it("Navbar / renders nav links", () => {
+    const navLinkNodes = screen.getAllByTestId("NavItem");
+    const snapshot = navLinkNodes.map((node) => node.textContent);
+    expect(snapshot).toMatchInlineSnapshot(`
+      Array [
+        "About",
+        "Contact",
+        "Projects",
+        "Résumé",
+      ]
+    `);
+  });
 });

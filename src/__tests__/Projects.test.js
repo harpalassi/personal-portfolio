@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Projects from "../components/Projects";
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";

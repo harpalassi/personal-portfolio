@@ -5,16 +5,16 @@ import "@testing-library/jest-dom/extend-expect";
 
 let wrapper;
 
-describe("> Projects", () => {
+describe('> Projects', () => {
   beforeEach(() => {
     wrapper = render(<Projects />);
   });
 
-  it("> Projects / initial load ", () => {
+  it('> Projects / initial load', () => {
     expect(wrapper).toBeDefined();
   });
 
-  it("> Projects / renders list of personal projects", () => {
+  it('> Projects / renders list of personal projects', () => {
     const titleNodes = screen.getAllByTestId("ProjectTitle");
     const snapshot = titleNodes.map((node) => node.textContent);
     expect(snapshot).toMatchInlineSnapshot(`

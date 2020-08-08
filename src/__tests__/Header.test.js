@@ -10,7 +10,7 @@ describe('> Header', () => {
      wrapper = render(<Header />);
   })
   
-  it( '> Header / initial load ', () => {
+  it('> Header / initial load', () => {
     expect(wrapper).toBeDefined();
   });
   

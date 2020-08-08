@@ -5,16 +5,16 @@ import "@testing-library/jest-dom/extend-expect";
 
 let wrapper;
 
-describe("Navbar", () => {
+describe('> Navbar', () => {
   beforeEach(() => {
     wrapper = render(<Navbar />);
   });
 
-  it("> Navbar / initial load ", () => {
+  it('> Navbar / initial load', () => {
     expect(wrapper).toBeDefined();
   });
 
-  it("Navbar / renders nav links", () => {
+  it('> Navbar / renders nav links', () => {
     const navLinkNodes = screen.getAllByTestId("NavItem");
     const snapshot = navLinkNodes.map((node) => node.textContent);
     expect(snapshot).toMatchInlineSnapshot(`

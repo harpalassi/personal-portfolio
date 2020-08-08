@@ -5,7 +5,7 @@ import "@testing-library/jest-dom/extend-expect";
 
 let wrapper;
 
-describe("Projects", () => {
+describe("> Projects", () => {
   beforeEach(() => {
     wrapper = render(<Projects />);
   });
@@ -14,7 +14,7 @@ describe("Projects", () => {
     expect(wrapper).toBeDefined();
   });
 
-  it("Projects / renders list of current projects", () => {
+  it("> Projects / renders list of personal projects", () => {
     const titleNodes = screen.getAllByTestId("ProjectTitle");
     const snapshot = titleNodes.map((node) => node.textContent);
     expect(snapshot).toMatchInlineSnapshot(`
